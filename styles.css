@@ -726,6 +726,8 @@ body{
     width: 100%;
     min-width: 146px;
     max-width: 146px;
+    /* rewt */
+    /* padding-bottom: 10px; */
 }
 .inner-figure{
     display: flex;

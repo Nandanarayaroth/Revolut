@@ -782,6 +782,218 @@ body{
     overflow: hidden;
 }
 
+.go-virtual-container{
+    font: inherit;
+    background-color: #000;
+    color: #f4f4f4;
+    width: 100%;
+}
+.go-virtual-section{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    overflow: hidden;
+    min-height: 640px;
+    position: relative;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font: inherit;
+}
+.go-virtual-setter{
+    left: 0px;
+    right: 0px;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    transition: opacity 600ms;
+    position: absolute;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font: inherit;
+    opacity: 1;
+}
+.go-virtual-overlay{
+    will-change: transform;
+    transform: translateY(-17.8333px);
+    position: relative;
+    box-sizing: border-box;
+    font: inherit;
+    width: 100%;
+    height: 100%;
+}
+.go-virtual-layout{
+    position: relative;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font: inherit;
+    width: 100%;
+    height: 100%;
+}
+.vedio1{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    backface-visibility: hidden;
+}
+
+.go-virtual-upper-container{
+    transition: opacity 300ms ease-in-out;
+    opacity: 1;
+    position: relative;
+    align-content: inherit;
+    grid-template-areas: "content" "media" "tabs";
+    grid-template-rows: auto 1fr auto;
+    height: 100%;
+    min-height: 640px;
+    width: 100%;
+    max-width: 1000px;
+    padding-top: 48px;
+    display: grid;
+    grid-template: "content" "media" 1fr / auto;
+    text-align: start;
+    box-sizing: border-box;
+    font: inherit;
+}
+.go-virtual-upper{
+    display: grid;
+    grid-template: "text";
+    box-sizing: border-box;
+    font: inherit;
+    grid-area: content;
+}
+.go-virtual-upper-span{
+    visibility: visible;
+    max-width: 1000px;
+    gap: 1rem;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    align-items: start;
+    margin-bottom: 1.5rem;
+    flex-direction: column;
+    box-sizing: border-box;
+    font: inherit;
+    color: #f4f4f4;
+    min-height: 0px;
+    display: flex;
+    grid-area: text;
+}
+.go-virtual-title{
+    opacity: 1;
+    transition: none;
+    transform: translateY(0px);
+    font-family: 'Medium', sans-serif !important;
+    font-size: 2.25rem !important;
+    font-weight: 500 !important;
+    line-height: 1 !important;
+    white-space: pre-wrap;
+    box-sizing: border-box;
+    font: inherit;
+    min-width: 0px;
+}
+.go-virtual-text-container{
+    opacity: 1;
+    transition: none;
+    transform: translateY(0px);
+    flex-direction: column;
+    gap: 0.25rem;
+    font: inherit;
+    width: 100%;
+    min-height: 0px;
+    display: flex;
+}
+.go-virtual-secription{
+    font-family: 'Medium', sans-serif !important;
+    font-weight: 400 !important;
+    font-size: 1.125rem !important;
+    line-height: 1.5rem !important;
+    letter-spacing: normal;
+    box-sizing: border-box;
+    font: inherit;
+    min-width: 0px;
+}
+.go-virtual-smalltext{
+    font-family: 'Medium', sans-serif !important;
+    font-weight: 400 !important;
+    font-size: 0.75rem !important;
+    line-height: 1.125rem !important;
+    letter-spacing: 0.01125rem !important;
+    box-sizing: border-box;
+    font: inherit;
+    min-width: 0px;
+}
+.govirtual-btn-container{
+    opacity: 1;
+    transition: none;
+    transform: translateY(0px);
+    flex-direction: row;
+    gap: 0.5rem;
+    box-sizing: border-box;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    padding: 0px;
+    font: inherit;
+    margin-top: 0.25rem;
+    min-width: 0px;
+    display: flex;
+}
+.govirtual-btn-link{
+    text-decoration: none;
+    font-family: 'Medium', sans-serif !important;
+    font-weight: 500 !important;
+    font-size: 1rem !important;
+    line-height: 1.375rem !important;
+    letter-spacing: normal;
+    height: auto;
+    width: min-content;
+    max-width: 240px;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #f4f4f4;
+    color: #000;
+    border-radius: 9999px;
+    text-align: center;
+    border: none;
+    font: inherit;
+    outline-color: transparent;
+    /* background-color: transparent; */
+    isolation: isolate;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.govirtual-btn-setter{
+    position: absolute;
+    inset: 0px;
+    display: block;
+    border-radius: inherit;
+    transition: inherit;
+    background-color: transparent;
+    pointer-events: none;
+    z-index: 1;
+}
+.govirutual-btn{
+    display: block;
+    max-width: 100%;
+    min-width: 0px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow-wrap: normal;
+}
+.virtual-space-setter{
+    visibility: hidden;
+    max-width: 1000px;
+    gap: 1rem;
+    padding-left: 1.25rem;
+}
+
+
 
 
 

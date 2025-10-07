@@ -179,14 +179,17 @@ body{
     display: block;
 
     width: calc(201.6vh);
-    height: calc(112vh);
+    height: calc(113.90vh);
+
+
     /* width: 1590.62px; */
     /*{ height: 883px;} */
     /* height: 908px; */
     /*{ height: 797px;} */
+
+
     min-height: 370px;
-    min-width: 665px;
-    
+    min-width: 665px;  
 }
 
 .section-two{
@@ -311,12 +314,13 @@ body{
     margin-bottom: 1rem;
     width: 100%;
     overflow: hidden;
-    height: 486px;
+    height: 471px;
     border-width: 3px;
     border-style: solid;
     border-image: initial;
     border-color: #c9c9cd;
-    border-radius: 19.725px;
+    /* border-radius: 19.725px; */
+    border-radius: calc(2.5vh);
 }
 
 .insde-box-2{
@@ -441,7 +445,7 @@ body{
     z-index: 1;
     transform: translateX(calc(-2px)) translateX(-100%) scale(0.9);
     opacity: 1;
-    gap: 16px;
+    gap: 1px;
     translate: -100%;
 }
 .scroll-extra{
@@ -470,7 +474,7 @@ body{
     z-index: 1;
     transform: translateX(0px) scale(1);
     opacity: 1;
-    gap: 16px;
+    gap: 1px;
     translate: -100%;
 }
 .scroll-main-setter{
@@ -559,9 +563,9 @@ body{
     cursor: auto;
     transition: transform 350ms, opacity 350ms;
     z-index: 0;
-    transform: translateX(calc(-2px)) translateX(95%) scale(0.9);
+    transform: translateX(calc(-2px)) translateX(3%) scale(0.9);
     opacity: 1;
-    gap: 16px;
+    gap: 1px;
     translate: -100%;
 }
 .scroll-setting{
@@ -570,7 +574,7 @@ body{
     z-index: 1;
     transform: translateX(calc(-2px)) translateX(-100%);
     opacity: 1;
-    gap: 16px;
+    gap: 1px;
     translate: -100%;
     position: absolute;
     top: 0px;
@@ -588,7 +592,7 @@ body{
     z-index: 1;
     transform: translateX(calc(-16px)) translateX(95%) scale(0.9);
     opacity: 1;
-    gap: 16px;
+    gap: 1px;
     translate: -100%;
     position: absolute;
     top: 0px;
@@ -1231,7 +1235,8 @@ body{
     padding-left: 1.25rem !important;
     padding-right: 1.25rem !important;
     align-items: start;
-    margin-bottom: 1.5rem !important;
+    /* margin-bottom: 1.5rem !important; */
+    margin-bottom: 4.5rem !important;
     flex-direction: column;
     box-sizing: border-box;
     margin: 0px;
@@ -1621,6 +1626,9 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.lear-more-margin{
+    margin-top: 4px;
 }
 .learn-more-text{
     display: block;
@@ -2098,6 +2106,226 @@ footer{
 b{
     font-weight: bolder;
 }
+.footer-plan-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+.footer-plan-part1{
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-bottom: 0.5rem;
+    width: 100%;
+}
+.footer-plan-btn{
+    cursor: pointer;
+    width: 100%;
+    border: none;
+    box-sizing: border-box;
+    color: inherit;
+    text-align: inherit;
+    text-decoration: none;
+    background: transparent;
+    border-radius: 0.75rem;
+    position: relative;
+    isolation: isolate;
+}
+.footer-plan-setter{
+    display: flex;
+    flex-direction: row;
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    min-width: 0px;
+    display: flex;
+}
+.footer-plan-h2{
+    font-family: 'Inter', sans-serif !important;
+    font-weight: 600 !important;
+    font-size: 0.75rem !important;
+    line-height: 1.125rem !important;
+    letter-spacing: 0.0075rem !important;
+    margin: 0px auto 0px 0px;
+    padding: 0px;
+    color: #fff;
+    min-width: 0px;
+}
+.footer-plan-downarrow{
+    background-color: currentColor;
+    mask-image: url("https://assets.revolut.com/assets/icons/16/ChevronDownSmall.svg");
+    mask-repeat: no-repeat;
+    color: white;
+    mask-size: 100% 100%;
+    width: 16px;
+    height: 16px;
+    display: block;
+}
+.footer-icon-section{
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+    margin-right: 0px;
+    margin-left: 0px;
+    padding-top: 0px;
+    margin-bottom: 2.5rem;
+    margin-top: 2.5rem;
+    padding-bottom: 0.5rem;
+    min-width: 0px;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #8d969e;
+}
+.footer-icon-li{
+    list-style: none;
+    width: 100%;
+}
+.footer-icons{
+    align-items: center;
+    display: flex;
+    height: 1.5rem;
+}
+.footer-icon1{
+    margin-top: -2;
+    height: 1rem;
+}
+.footer-icon-link{
+    display: block;
+    padding: 8px;
+    text-align: center;
+}
+.setting-icons{
+    display: flex;
+    gap: 8px;
+}
+.footer-linked-icons{
+    color: #8d969e;
+    background-color: currentColor;
+    mask-image: url("https://assets.revolut.com/assets/icons/LogoFacebook.svg");
+    mask-repeat: no-repeat;
+    mask-size: 100% 100%;
+    width: 16px;
+    height: 16px;
+    display: block;
+}
+.footer-linked-icons2{
+    color: #8d969e;
+    background-color: currentColor;
+    mask-image: url("https://assets.revolut.com/assets/icons/LogoInstagram.svg");
+    mask-repeat: no-repeat;
+    mask-size: 100% 100%;
+    width: 16px;
+    height: 16px;
+    display: block;
+}
+.footer-linked-icons3{
+    color: #8d969e;
+    background-color: currentColor;
+    mask-image: url("https://assets.revolut.com/assets/icons/LogoTwitter.svg");
+    mask-repeat: no-repeat;
+    mask-size: 100% 100%;
+    width: 16px;
+    height: 16px;
+    display: block;
+}
+.footer-linked-icons4{
+    color: #8d969e;
+    background-color: currentColor;
+    mask-image: url("https://assets.revolut.com/assets/icons/LogoLinkedIn.svg");
+    mask-repeat: no-repeat;
+    mask-size: 100% 100%;
+    width: 16px;
+    height: 16px;
+    display: block;
+}
+.footer-linked-icons5{
+    color: #8d969e;
+    background-color: currentColor;
+    mask-image: url("https://assets.revolut.com/assets/icons/LogoTikTok.svg");
+    mask-repeat: no-repeat;
+    mask-size: 100% 100%;
+    width: 16px;
+    height: 16px;
+    display: block;
+}
+.footer-uk-section{
+    display: grid;
+    column-gap: 2rem;
+    row-gap: 0.75rem;
+    grid-template-columns: auto auto 1fr;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-bottom: 2.5rem;
+}
+.uk-btn{
+    cursor: pointer;
+    font-family: 'Inter', sans-serif !important;
+    font-weight: 400 !important;
+    font-size: 0.75rem !important;
+    line-height: 1.125rem !important;
+    letter-spacing: 0.01125rem !important;
+    height: 26px;
+    display: flex;
+    align-items: center;
+    color: #8d969e;
+    width: max-content;
+    max-width: 100%;
+    position: relative;
+    text-align: inherit;
+    outline-color: transparent;
+    background-color: transparent;
+    border-radius: 0.75rem;
+    padding: 0px;
+    margin: 0px;
+    justify-content: center;
+    border: none;
+}
+.uk-span{
+    margin-right: 0.5rem;
+    display: inline-flex;
+    align-items: center;
+}
+.uk-img{
+    color: transparent;
+    overflow: hidden;
+    position: relative;
+    min-width: 14px;
+    max-width: 100%;
+    width: 14px;
+    height: 14px;
+    border-radius: 9999px;
+    display: inline-block;
+}
+.website-terms-section{
+    display: flex;
+    flex-wrap: wrap;
+    grid-area: 2 / 1 / auto / span 3;
+    list-style: none;
+}
+.website-terms-li{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    padding: 0px;
+    margin-right: 1.5rem;
+}
+.websit-terms-text{
+    font-family: 'Inter', sans-serif !important;
+    font-weight: 400 !important;
+    font-size: 0.75rem !important;
+    line-height: 1.125rem !important;
+    letter-spacing: 0.01125rem !important;
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+    color: #8d969e;
+    min-width: 0px;
+    display: block;
+}
 
 
 /* mobile L */
@@ -2109,5 +2337,44 @@ b{
     .main-item-img{
         width: 1651.1px;
         height: 917.28px;
+    }
+    .inside-box {
+        height: 535px;
+    }
+    .go-virtual-footer-span{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 0px;
+    }
+}
+
+/* Tablet */
+@media screen and (min-width: 768px){
+    .main-text1{
+        font-size: 80px !important;
+        letter-spacing: -0.13rem !important;
+    }
+    .inside-box{
+        width: 558.52px;
+        height: 788.13px;
+    }
+    .main-item-img{
+        transform: translate(-50%, 0px);
+        zoom: 1.4;
+    }
+    .section-two{
+        padding-top: 3rem;
+    }
+    .main-text2{
+        gap: 0.5rem;
+        margin-top: 7px;
+    }
+    .Dowload-at-tab{
+        margin-top: 10px;
+    }
+    .inside-img{
+        height: 788.13px;
+        width: 558.52px;
     }
 }

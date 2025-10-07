@@ -2510,6 +2510,11 @@ b{
         width: 100%;
         height: 100%;
         backface-visibility: hidden;
+        transform: scale(1);
+        transform-origin: center center;
+    }
+    .vedio1{
+        display: none;
     }
     .whit-text-layout{
         align-items: center;
@@ -2703,5 +2708,29 @@ b{
         text-decoration: none;
         word-break: break-word;
         display: block;
+    }
+}
+@media screen and (min-width: 1024px) {
+    .scroll-container-setter3{
+        transform: translateX(calc(-2px)) translateX(162%) scale(0.9); 
+        height: 314.64px;
+        width: 222.97px;  
+    }
+    .scroll-container-setter2 {
+        transform: translateX(366px) scale(1);
+    }
+    .scroll-container-setter {
+        transform: translateX(calc(-2px)) translateX(158%) scale(0.9);
+    } 
+    .scroll-main-container{
+        transform: translateY(72px);
+    }
+    .main-text1{
+        font-size: 80px !important;
+        letter-spacing: -0.13rem !important;
+    }
+    .section-two{
+        padding-left: 0px;
+        padding-right: 0px;
     }
 }
